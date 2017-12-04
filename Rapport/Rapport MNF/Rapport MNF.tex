@@ -1,0 +1,33 @@
+\documentclass[11pt,a4paper]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+\title{Rapport Méthode Numérique en Finance}
+
+\begin{document}
+
+\chapter{Modèle de Black \& Scholes et Equations aux dérivées partielles}
+
+\section{Introduction}
+
+	L'objectif de cette partie est de pricer une option européenne selon le modèle de Black \& Scholes. Pour cela nous utiliserons tout d'abord la formule exacte du prix du call puis nous comparerons ce résultat avec la résolution de l'équation différentielle sous différents schémas temporels.\\
+	Nous utiliserons les paramètres suivants dans la suite de ce chapitre :
+
+\begin{align*}
+  	Si &= 150& &\text{ la valeur actuelle de l'action sous-jacente} \\
+  	K &= 100& &\text{ le prix du Strike} \\
+	r &= 0.05& &\text{ le taux d'intérêt sans risque} \\
+	sig &= 0.2&  &\text{ la volatilité du prix de l'action} \\
+	T &= 1& &\text{ le temps à la maturité} \\
+	L &= log(1000)& &\text{ la valeur maximale du prix de l'option}
+\end{align*}
+
+
+
+
+\end{document}
